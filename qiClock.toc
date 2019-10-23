@@ -1,0 +1,13 @@
+## Interface: 11302
+## Title: qiClock
+## Notes:
+## Author: Entropy
+## Version: v0.1
+## SavedVariablesPerCharacter: qvars
+
+localization.lua
+init.lua
+qiClock.lua
+qiClockEventHandler.lua
+qiClockSlashHandler.lua
+qiFrames.lua

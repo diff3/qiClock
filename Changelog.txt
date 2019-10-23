@@ -1,0 +1,31 @@
+todo: Add MapCoords to enemy, marked and shortkey
+
+/script DEFAULT_CHAT_FRAME:AddMessage( GetMouseFocus():GetName() );
+
+SendAddonMessage("prefix", "text", "type", "target");
+local nameplateUnit = C_NamePlate.GetNamePlateForUnit("target");
+
+for i=1,40 do
+    local name, icon, _, _, _, etime = UnitBuff("player",i)
+    if name == "Summon Chauffeur" or name == "Ban-Lu, Grandmaster's Companion" then
+        --do things
+    end
+end
+
+
+
+TODO:
+
+- DPS counter, perhaps like FPS viewer?
+- Vendor price in GameTooltip
+- Used in recepies or in quests in items.
+- played today
+- Multibletooltip
+- tooltip notes
+- thanks for buff
+- who on whisper
+- marktool baudmark
+- auto dismount
+- extended map info.
+
+- More sub catagories in addon settings.
